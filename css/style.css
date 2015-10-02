@@ -1,7 +1,12 @@
 body {
 	font-family: 'Source Code Pro', monospace;
 	color: #404041;
-	font-size: 18px;
+	font-size: 14px;
+}
+@media (min-width: 724px) {
+	body {
+		font-size: 18px;
+	}
 }
 
 a:link,
@@ -21,6 +26,19 @@ a:visited {
 	text-align: center;
 	padding-top: 2em;
 }
+
+.logo {
+	display: inline-block;
+	width: 50%;
+}
+@media (min-width: 724px) {
+	.logo {
+		width: 25%;
+	}
+}
+	.logo img {
+		width: 100%;
+	}
 
 .visit {
 	display: inline-block;
