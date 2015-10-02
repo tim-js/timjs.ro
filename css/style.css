@@ -14,6 +14,9 @@ a:visited {
 	color: #0089d7;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 
 .color {
 	color: #eac104;
@@ -39,10 +42,3 @@ a:visited {
 	.logo img {
 		width: 100%;
 	}
-
-.visit {
-	display: inline-block;
-}
-.visit:hover {
-	text-decoration: underline;
-}
