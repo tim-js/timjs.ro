@@ -1,0 +1,30 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	color: #404041;
+	font-size: 18px;
+}
+
+a:link,
+a:visited {
+	color: #0089d7;
+	text-decoration: none;
+}
+
+.color {
+	color: #eac104;
+}
+.grey {
+	color: #bbbbbb;
+}
+
+.wrapper {
+	text-align: center;
+	padding-top: 2em;
+}
+
+.visit {
+	display: inline-block;
+}
+.visit:hover {
+	text-decoration: underline;
+}
