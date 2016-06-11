@@ -18,6 +18,23 @@ a:hover {
 	text-decoration: underline;
 }
 
+h2 {
+	margin-top: 6em;
+	font-size: 1em;
+}
+
+hr {
+	border: 0;
+	/*height: 0.5em;
+	background: repeating-linear-gradient(
+		115deg,
+		transparent,
+		transparent 10px,
+		#f5f5f5 10px,
+		#f5f5f5 20px
+	);*/
+}
+
 .color {
 	color: #eac104;
 	font-weight: bold;
@@ -43,3 +60,32 @@ a:hover {
 	.logo img {
 		width: 100%;
 	}
+
+.workshops {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+	.workshops li {
+		width: 75%;
+		margin-top: 1em;
+	}
+	@media (min-width: 724px) {
+		.workshops {
+			flex-wrap: nowrap;
+		}
+			.workshops li {
+				width: 250px;
+			}
+	}
+	.workshops li.soon {
+		opacity: 0.3;
+		-webkit-filter: grayscale(100%);
+	}
+		.workshops img {
+			display: inline-block;
+			max-width: 100%;
+			margin: 0 auto;
+		}
