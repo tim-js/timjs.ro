@@ -80,7 +80,7 @@ hr {
 				width: 250px;
 			}
 	}
-	.workshops li.soon {
+	.workshops li.faded {
 		opacity: 0.3;
 		-webkit-filter: grayscale(100%);
 	}
