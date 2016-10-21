@@ -8,7 +8,7 @@ module.exports = {
   devtool: 'eval',
   entry: {
     // multiple entry points
-    editions: APP_DIR + '/editions.js',
+    editions: APP_DIR + '/editions/index.js',
   },
   output: {
     path: BUILD_DIR,
@@ -18,10 +18,16 @@ module.exports = {
     filename: '[name].bundle.js'
   },
   module: {
-    loaders: [{
-      test: /\.js$/,
-      loaders: ['babel'],
-      include: APP_DIR
-    }]
+    loaders: [
+      {
+        test: /\.js$/,
+        loaders: ['babel'],
+        include: APP_DIR
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      }
+    ]
   }
 };
