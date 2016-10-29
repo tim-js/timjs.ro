@@ -1,4 +1,3 @@
-<head>
     <meta charset="utf-8">
     <title>tim.js : timișoara javascript group</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,4 +18,3 @@
     <meta property="og:title"       content="tim.js" />
     <meta property="og:description" content="timișoara javascript group" />
     <meta property="og:image"       content="http://timjs.ro/assets/tim-js-og.png" />
-</head>
