@@ -1,0 +1,17 @@
+exports[`Talk should test snapshot 1`] = `
+<div>
+  <strong>
+    <a
+      href="url-video">
+      Talk Title
+    </a>
+  </strong>
+  <br />
+  <i>
+    <a
+      href="url-speaker">
+      Speaker Name
+    </a>
+  </i>
+</div>
+`;
