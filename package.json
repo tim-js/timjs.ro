@@ -33,6 +33,7 @@
     "enzyme": "2.5.1",
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
+    "extract-text-webpack-plugin": "^1.0.1",
     "jest-cli": "^16.0.2",
     "react-addons-test-utils": "15.4.0-rc.4",
     "react-shallow-testutils": "^2.0.0",

@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const APP_DIR = path.join(__dirname, 'src');
 const BUILD_DIR = path.join(__dirname, 'dist');
@@ -17,6 +18,12 @@ module.exports = {
     // will be replaced with it (eg. "editions")
     filename: '[name].bundle.js'
   },
+  plugins: [
+    new ExtractTextPlugin('[name].bundle.css', {
+      allChunks: true
+    }),
+    new webpack.NoErrorsPlugin()
+  ],
   module: {
     loaders: [
       {
@@ -26,7 +33,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
       }
     ]
   }
