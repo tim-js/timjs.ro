@@ -6,7 +6,8 @@ module.exports = function (wallaby) {
       '!src/**/*.spec.js*',
 
       '__testDoubles__/*.js',
-      {pattern: 'src/**/*.css', load: false, instrument: false}
+      {pattern: 'src/**/*.css', load: false, instrument: false},
+      {pattern: 'package.json', load: false, instrument: false}
     ],
 
     tests: [
@@ -26,12 +27,8 @@ module.exports = function (wallaby) {
     testFramework: 'jest',
 
     setup: (wallaby) => {
-      wallaby.testFramework.configure({
-        "moduleNameMapper": {
-          "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__testDoubles__/fileDummy.js",
-          "^.+\\.(css|less)$": "<rootDir>/__testDoubles__/styleDummy.js"
-        }
-      });
+      const jestConfig = require('./package.json').jest;
+      wallaby.testFramework.configure(jestConfig);
     },
   };
 };
