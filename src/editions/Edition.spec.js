@@ -8,8 +8,7 @@ import { shallow, mount, render } from 'enzyme';
 import Link from './Link';
 import Talk from './Talk';
 
-// @todo use a simpler notation, moduleDirectories, alias, etc
-import {editionData} from '../../__testDoubles__/editionStubData.js'
+import {editionData} from 'editionStubData.js'
 
 import Edition from './Edition';
 
