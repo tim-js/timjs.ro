@@ -8,18 +8,10 @@ import { shallow, mount, render } from 'enzyme';
 import Link from './Link';
 import Talk from './Talk';
 
-import Edition from './Edition';
+// @todo use a simpler notation, moduleDirectories, alias, etc
+import {editionData} from '../../__testDoubles__/editionStubData.js'
 
-let data =   {
-  name: "tim.js meetup 33: AngularConnect Special Event",
-  date: "October 19, 2016",
-  location: "Ambasada",
-  url: "http://www.meetup.com/tim-js/events/234650066/",
-  talks: [
-    { title: "AngularConnect Overview", speaker: "Lucian Pacurar", urlPresentation: "", urlVideo: "", urlSpeaker: "" },
-    { title: "Router 2.0", speaker: "Marius Cristea", urlPresentation: "", urlVideo: "", urlSpeaker: "" }
-  ]
-};
+import Edition from './Edition';
 
 describe('Edition', () => {
   beforeEach(function() {
@@ -27,14 +19,14 @@ describe('Edition', () => {
   });
 
   it('should initially render the talks visible', function() {
-		const sut  = this.shallowRenderer.render( <Edition data={data} /> );
+		const sut  = this.shallowRenderer.render( <Edition data={editionData} /> );
 		const tree = this.shallowRenderer.getRenderOutput();
 
 		expect(ShallowTestUtils.findAllWithType(tree, Talk).length).toBe(2);
 	});
 
   it('should hide the talks when unchecking, with DOM rendering', function() {
-    const sut = ReactTestUtils.renderIntoDocument( <Edition data={data} /> );
+    const sut = ReactTestUtils.renderIntoDocument( <Edition data={editionData} /> );
     const sutNode = ReactDOM.findDOMNode(sut);
     const checkbox = sutNode.querySelector('input[type="checkbox"]');
 
@@ -47,7 +39,7 @@ describe('Edition', () => {
 	});
 
   it('should hide the talks when unchecking, with state setting', function() {
-    const sut = ReactTestUtils.renderIntoDocument( <Edition data={data} /> );
+    const sut = ReactTestUtils.renderIntoDocument( <Edition data={editionData} /> );
 
     sut.setState({ displayTalks: false });
 
@@ -57,7 +49,7 @@ describe('Edition', () => {
 	});
 
   it('should hide the talks when unchecking, with shallow rendering', function() {
-		const sut  = this.shallowRenderer.render( <Edition data={data} /> );
+		const sut  = this.shallowRenderer.render( <Edition data={editionData} /> );
 		let tree = this.shallowRenderer.getRenderOutput();
 
     const checkbox = ShallowTestUtils.findAllWithType(tree, 'input')[0];
@@ -70,24 +62,24 @@ describe('Edition', () => {
 });
 
 describe('Edition, with Enzyme', () => {
-  it('should initially render the talks visible, with static render', function() {
-    const wrapper = render(<Edition data={data} />);
+  it('should initially render the talks visible, with static render', () => {
+    const wrapper = render(<Edition data={editionData} />);
     expect(wrapper.find('.talks-list').length).toEqual(1);
 	});
 
-  it('should initially render the talks visible, with full DOM render', function() {
-    const wrapper = mount(<Edition data={data} />);
+  it('should initially render the talks visible, with full DOM render', () => {
+    const wrapper = mount(<Edition data={editionData} />);
     expect(wrapper.find(Talk).length).toEqual(2);
 	});
 
-  it('should hide the talks when unchecking, with shallow rendering', function() {
-    const wrapper = shallow(<Edition data={data} />);
+  it('should hide the talks when unchecking, with shallow rendering', () => {
+    const wrapper = shallow(<Edition data={editionData} />);
     wrapper.instance().toggleTalks(false);
     expect(wrapper.state().displayTalks).toEqual(false);
 	});
 
-  it('should hide the talks when unchecking, with full DOM rendering', function() {
-    const wrapper = mount(<Edition data={data} />);
+  it('should hide the talks when unchecking, with full DOM rendering', () => {
+    const wrapper = mount(<Edition data={editionData} />);
     wrapper.find('input[type="checkbox"]').simulate('change', {'target': {'checked': false}});
     expect(wrapper.containsMatchingElement(<Talk/>)).toEqual(false);
 	});

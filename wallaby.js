@@ -4,7 +4,8 @@ module.exports = function (wallaby) {
     files: [
       'src/**/*.js*',
       '!src/**/*.spec.js*',
-      {pattern: '__dummies__/*.js', instrument: false},
+
+      '__testDoubles__/*.js',
       {pattern: 'src/**/*.css', load: false, instrument: false}
     ],
 
@@ -27,8 +28,8 @@ module.exports = function (wallaby) {
     setup: (wallaby) => {
       wallaby.testFramework.configure({
         "moduleNameMapper": {
-          "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__dummies__/fileDummy.js",
-          "^.+\\.(css|less)$": "<rootDir>/__dummies__/styleDummy.js"
+          "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__testDoubles__/fileDummy.js",
+          "^.+\\.(css|less)$": "<rootDir>/__testDoubles__/styleDummy.js"
         }
       });
     },

@@ -7,18 +7,19 @@ const shallowRenderer = ReactTestUtils.createRenderer();
 import Link from './Link';
 import Talk from './Talk';
 
-let data = { title: "Talk Title", speaker: "Speaker Name", urlPresentation: "url-presentation", urlVideo: "url-video", urlSpeaker: "url-speaker" };
+// @todo use a simpler notation, moduleDirectories, alias, etc
+import {talkData} from '../../__testDoubles__/editionStubData.js'
 
 describe('Talk', () => {
 	it('should render 2 Link subcomponents, shallow method with shallow utils', () => {
-		const sut  = shallowRenderer.render( <Talk data={data} /> );
+		const sut  = shallowRenderer.render( <Talk data={talkData} /> );
 		const tree = shallowRenderer.getRenderOutput();
 
 		expect(ShallowTestUtils.findAllWithType(tree, Link).length).toBe(2);
 	});
 
 	it('should render 2 Link subcomponents, shallow method with rendered tree parsing', () => {
-		const sut  = shallowRenderer.render( <Talk data={data} /> );
+		const sut  = shallowRenderer.render( <Talk data={talkData} /> );
 		const tree = shallowRenderer.getRenderOutput();
 
 		const child1 = tree.props.children[0];
@@ -29,13 +30,13 @@ describe('Talk', () => {
 	});
 
 	it('should render 2 Link subcomponents, render in DOM method with react utils', () => {
-		const sut = ReactTestUtils.renderIntoDocument( <Talk data={data} /> );
+		const sut = ReactTestUtils.renderIntoDocument( <Talk data={talkData} /> );
 
 		expect(ReactTestUtils.scryRenderedComponentsWithType(sut, Link).length).toEqual(2);
 	});
 
 	it('should render 2 a tags, render in DOM method with DOM parsing', () => {
-		const sut = ReactTestUtils.renderIntoDocument( <Talk data={data} /> );
+		const sut = ReactTestUtils.renderIntoDocument( <Talk data={talkData} /> );
 		const sutNode = ReactDOM.findDOMNode(sut);
 
 		expect(sutNode.querySelectorAll('a').length).toEqual(2);
