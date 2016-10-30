@@ -8,6 +8,9 @@
     "test": "jest"
   },
   "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["text"],
+    "collectCoverageFrom": ["src/**/*.js"],
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "modulePaths": ["__testDoubles__"],
     "moduleNameMapper": {
