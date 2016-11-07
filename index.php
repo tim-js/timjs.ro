@@ -25,7 +25,10 @@
               </li>
               <li>
                   <img src="assets/javascript-neighborhoods.svg" title="JavaScript Neighborhoods workshop">
-                  <div>// coming soon</div>
+                  <div>
+                    <a href="http://www.meetup.com/tim-js/events/235391497/">12 Nov</a> &&
+                    <a href="http://www.meetup.com/tim-js/events/235124721/">19 Nov</a>
+                  </div>
               </li>
           </ul>
       </section>
