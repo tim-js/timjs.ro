@@ -23,7 +23,7 @@
                   <img src="assets/javascript-mechanics.svg" title="JavaScript Mechanics workshop">
                   <div><a href="http://www.meetup.com/tim-js/events/233420244/">22 Oct</a></div>
               </li>
-              <li>
+              <li class="faded">
                   <img src="assets/javascript-neighborhoods.svg" title="JavaScript Neighborhoods workshop">
                   <div>
                     <a href="http://www.meetup.com/tim-js/events/235391497/">12 Nov</a> &&

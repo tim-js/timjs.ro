@@ -81,7 +81,7 @@ hr {
 			}
 	}
 	.workshops li.faded {
-		opacity: 0.3;
+		opacity: 0.7;
 		-webkit-filter: grayscale(100%);
 	}
 		.workshops img {
