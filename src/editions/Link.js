@@ -14,11 +14,11 @@ export default class Link extends Component {
 }
 
 Link.propTypes = {
-  url: React.PropTypes.string,
-  text: React.PropTypes.string
+  text: React.PropTypes.string.isRequired,
+  url: React.PropTypes.string
 };
 
 Link.defaultProps = {
-  url: '',
-  text: ''
+  text: '',
+  url: ''
 };

@@ -7,8 +7,7 @@ const shallowRenderer = ReactTestUtils.createRenderer();
 import Link from './Link';
 import Talk from './Talk';
 
-// @todo use a simpler notation, moduleDirectories, alias, etc
-import {talkData} from '../../__testDoubles__/editionStubData.js'
+import {talkData} from 'editionStubData.js';
 
 describe('Talk', () => {
 	it('should render 2 Link subcomponents, shallow method with shallow utils', () => {

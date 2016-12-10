@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
 
-import {editionData} from 'editionStubData.js'
+import {editionData} from 'editionStubData.js';
 import Talk from './Talk';
 
 import Edition from './Edition';

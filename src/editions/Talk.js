@@ -22,3 +22,17 @@ export default class Talk extends Component {
     );
   }
 }
+
+Talk.propTypes = {
+  title: React.PropTypes.string.isRequired,
+  speaker: React.PropTypes.string.isRequired,
+
+  urlVideo: React.PropTypes.string,
+  urlPresentation: React.PropTypes.string,
+  urlSpeaker: React.PropTypes.string
+};
+
+Talk.defaultProps = {
+  title: '',
+  speaker: ''
+};
