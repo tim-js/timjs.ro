@@ -3,8 +3,6 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import Talk from './Talk';
 import Link from './Link';
 
-import './edition.css';
-
 export default class Edition extends Component {
   constructor() {
     super(...arguments);
