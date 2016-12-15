@@ -17,7 +17,7 @@ export default class EditionsContainer extends Component {
   }
 
   componentDidMount() {
-    fetch('./src/editions/editions.json')
+    fetch('./src/editionsReact/editions.json')
       .then(res => res.json())
       .then(resData => {
         this.setState({ editions: resData });

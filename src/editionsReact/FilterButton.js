@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './edition.css';
 
 export default class FilterButton extends Component {
   handleClick() {

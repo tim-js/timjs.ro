@@ -2,8 +2,8 @@ module.exports = function (wallaby) {
 
   return {
     files: [
-      'src/**/*.js*',
-      '!src/**/*.spec.js*',
+      'src/**React/*.js*',
+      '!src/**React/*.spec.js*',
 
       '__testDoubles__/*.js',
       {pattern: 'src/**/*.css', load: false, instrument: false},
@@ -11,12 +11,12 @@ module.exports = function (wallaby) {
     ],
 
     tests: [
-      'src/**/*.spec.js*',
-      {pattern: 'src/**/*.snapshot*', ignore: true, load: false}
+      'src/**React/*.spec.js*',
+      {pattern: 'src/**React/*.snapshot*', ignore: true, load: false}
     ],
 
     compilers: {
-      '**/*.js*': wallaby.compilers.babel()
+      '**React/*.js*': wallaby.compilers.babel()
     },
 
     env: {
