@@ -9,7 +9,8 @@ module.exports = {
   devtool: 'eval',
   entry: {
     // multiple entry points
-    editions: APP_DIR + '/editions/index.js',
+    editionsReact: APP_DIR + '/editionsReact/index.js',
+    editionsVue  : APP_DIR + '/editionsVue/index.js',
   },
   output: {
     path: BUILD_DIR,
@@ -34,7 +35,16 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue'
       }
     ]
+  },
+  vue: {
+    loaders: {
+      js: 'babel'
+    }
   }
 };

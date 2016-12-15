@@ -3,7 +3,7 @@
 
   <head>
     <?php require_once('views/head.php'); ?>
-    <link href="dist/editions.bundle.css" rel="stylesheet">
+    <link href="dist/editionsVue.bundle.css" rel="stylesheet">
   </head>
 
   <body class="wrapper">
@@ -17,6 +17,6 @@
 
       <?php require_once('views/footer.php'); ?>
 
-      <script src="dist/editions.bundle.js"></script>
+      <script src="dist/editionsVue.bundle.js"></script>
   </body>
 </html>

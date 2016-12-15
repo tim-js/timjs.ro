@@ -1,0 +1,13 @@
+.btn {
+  background: transparent;
+  border: 1px transparent solid;
+  border-radius: 2em;
+  font-size: 1em;
+  display: inline-block;
+  padding: .5em 1em;
+  cursor: pointer;
+  outline: 0;
+}
+.btn-active {
+  border-color: green;
+}
