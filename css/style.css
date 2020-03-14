@@ -1,31 +1,31 @@
 body {
-	font-family: 'Source Code Pro', monospace;
-	color: #404041;
-	font-size: 14px;
+  font-family: "Source Code Pro", monospace;
+  color: #404041;
+  font-size: 14px;
 }
 @media (min-width: 724px) {
-	body {
-		font-size: 18px;
-	}
+  body {
+    font-size: 18px;
+  }
 }
 
 a:link,
 a:visited {
-	color: #0089d7;
-	text-decoration: none;
+  color: #0089d7;
+  text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 h2 {
-	margin-top: 6em;
-	font-size: 1em;
+  margin-top: 6em;
+  font-size: 1em;
 }
 
 hr {
-	border: 0;
-	/*height: 0.5em;
+  border: 0;
+  /*height: 0.5em;
 	background: repeating-linear-gradient(
 		115deg,
 		transparent,
@@ -36,62 +36,70 @@ hr {
 }
 
 .color {
-	color: #eac104;
-	font-weight: bold;
+  color: #eac104;
+  font-weight: bold;
 }
 .grey {
-	color: #bbbbbb;
+  color: #bbbbbb;
 }
 
 .wrapper {
-	text-align: center;
-	padding-top: 2em;
+  text-align: center;
+  padding-top: 2em;
 }
 
 .logo {
-	display: inline-block;
-	width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 @media (min-width: 724px) {
-	.logo {
-		width: 25%;
-	}
+  .logo {
+    width: 25%;
+  }
 }
-	.logo img {
-		width: 100%;
-	}
+.logo img {
+  width: 100%;
+}
 
 .workshops {
-	list-style-type: none;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
 }
-	.workshops li {
-		max-width: 200px;
-		width: 75%;
-		margin-top: 3em;
-	}
-	@media (min-width: 724px) {
-		.workshops {
-			flex-wrap: nowrap;
-		}
-			.workshops li {
-				width: 200px;
-			}
-	}
-	.workshops li.faded {
-		opacity: 0.6;
-		-webkit-filter: grayscale(100%);
-	}
-	.workshops li.faded:hover {
-		opacity: 1;
-		-webkit-filter: none;
-	}
-		.workshops img {
-			display: inline-block;
-			max-width: 100%;
-			margin: 0 auto;
-		}
+.workshops li {
+  max-width: 200px;
+  width: 75%;
+  margin-top: 3em;
+}
+@media (min-width: 724px) {
+  .workshops {
+    flex-wrap: nowrap;
+  }
+  .workshops li {
+    width: 200px;
+  }
+}
+.workshops li.faded {
+  opacity: 0.6;
+  -webkit-filter: grayscale(100%);
+}
+.workshops li.faded:hover {
+  opacity: 1;
+  -webkit-filter: none;
+}
+.workshops img {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-bottom: 5em;
+}
+
+small {
+  font-size: 75%;
+}

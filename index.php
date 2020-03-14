@@ -10,6 +10,21 @@
       <?php require_once('views/header.php'); ?>
 
       <section>
+          <h2 class="grey">// organizer of revo.js</h2>
+          <br />
+          <a href="https://revojs.ro" target="_blank">
+            <img src="assets/revojs.svg" alt="revo.js logo" />
+          </a>
+          <br />
+          <p>
+              <small>
+                  <strong>Technology focused. Community driven. JavaScript conference.</strong><br />
+                  2-day, single-track, not-for-profit event.
+              </small>
+          </p>
+      </section>
+
+      <section>
           <h2 class="grey">// workshops</h2>
           <ul class="workshops">
               <li class="faded">
