@@ -18,7 +18,7 @@
           <br />
           <p>
               <small>
-                  <strong>Technology focused. Community driven. JavaScript conference.</strong><br />
+                  <strong>Technology focused.<br />Community driven.<br />JavaScript conference.</strong><br />
                   2-day, single-track, not-for-profit event.
               </small>
           </p>
