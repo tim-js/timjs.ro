@@ -16,5 +16,11 @@
     <meta property="og:url"         content="http://timjs.ro" />
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="tim.js" />
-    <meta property="og:description" content="timișoara javascript group" />
-    <meta property="og:image"       content="http://timjs.ro/assets/tim-js-og.png" />
+    <meta property="og:description" content="Timisoara JavaScript Community" />
+    <meta property="og:image"       content="http://timjs.ro/assets/tim-share-image.png" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1260" />
+    <meta name="twitter:image" content="http://timjs.ro/assets/tim-share-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="tim.js" />
+    <meta name="twitter:description" content="Timisoara JavaScript Community" />
