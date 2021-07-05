@@ -1,5 +1,5 @@
     <meta charset="utf-8">
-    <title>tim.js : timișoara javascript group</title>
+    <title>tim.js - Timisoara JavaScript Community</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,10 @@
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="tim.js" />
     <meta property="og:description" content="Timisoara JavaScript Community" />
-    <meta property="og:image"       content="http://timjs.ro/assets/tim-share-image.png" />
+    <meta property="og:image"       content="http://timjs.ro/assets/timjs-share-image.png" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
-    <meta name="twitter:image" content="http://timjs.ro/assets/tim-share-image.png" />
+    <meta name="twitter:image" content="http://timjs.ro/assets/timjs-share-image.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="tim.js" />
     <meta name="twitter:description" content="Timisoara JavaScript Community" />
