@@ -37,6 +37,9 @@
 
       <main class="main">
         <p>This 2-day workshop is aimed to give both <strong>beginners</strong> and <strong>intermediate</strong> developers a solid foundation of TypeScript fundamentals, while also exploring some of the more advanced features of TypeScript as well.</p>
+        <p><strong>Location</strong>: Hotel Timisoara, ROMA room</p>
+        <p><strong>Date</strong>: 29-30 May, 2023</p>
+        <p><strong>Capacity</strong>: maximum 20 seats</p>
 
         <br />
         <p>
@@ -46,6 +49,7 @@
         <h2 id="toc">Table of contents</h2>
         <ul>
           <li><a href="#overview">Workshop overview</a></li>
+          <li><a href="#tickets">Tickets info</a></li>
           <li><a href="#day1">Day 1: TypeScript Fundamentals for Beginners</a></li>
           <li><a href="#day2">Day 2: Intermediate TypeScript</a></li>
           <li><a href="#trainer">About your trainer</a></li>
@@ -58,6 +62,17 @@
         <br />
         <h3>Prerequisites:</h3>
         <p>Participants should bring their own laptop. Code sample and exercises will be done in the TypeScript playground, but VS Code can also be used.</p>
+
+        <h2 id="tickets">Tickets info</h2>
+        <p>Tickets can be bought individually, for one workshop only (beginner or intermediate), or for both workshops with a 10% discount.</p>
+        <p>Refunds are not available.</p>
+        <p><strong>All tickets include morning coffee + snacks, lunch, and beverages.</strong></p>
+
+        <br />
+        <p class="cta-wrapper">
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="#toc">Back to top</a>
+        </p>
 
         <h2 id="day1">Day 1: TypeScript Fundamentals for Beginners</h2>
 
