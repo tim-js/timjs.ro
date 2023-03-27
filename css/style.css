@@ -84,11 +84,11 @@ hr {
 }
 .workshops li.faded {
   opacity: 0.6;
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .workshops li.faded:hover {
   opacity: 1;
-  -webkit-filter: none;
+  filter: none;
 }
 .workshops img {
   display: inline-block;
