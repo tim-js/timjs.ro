@@ -10,7 +10,7 @@
       <?php require_once('views/header.php'); ?>
 
       <section>
-        <h2 class="grey">// current workshop</h2>
+        <h2 class="grey">// upcoming workshop</h2>
         <br />
         <a href="./typescript-fundamentals-workshop" class="workshop-link">
           <img src="assets/timjs-workshop-share.png" class="workshop-image" alt="TypeScript Fundamentals Workshop, with Tițian-Cornel Cernicova-Dragomir, organized by tim.js (Timisoara JavaScript Community) between 29th-30th of May 2023" />
