@@ -42,6 +42,7 @@
         <p><strong>Location</strong>: Hotel Timisoara, ROMA room</p>
         <p><strong>Date</strong>: 29-30 May, 2023</p>
         <p><strong>Capacity</strong>: maximum 20 seats</p>
+        <p><strong>Trainer</strong>: Tițian-Cornel Cernicova-Dragomir</p>
 
         <br />
         <p>
