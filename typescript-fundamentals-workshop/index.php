@@ -1,3 +1,5 @@
+<?php include_once('../version.php'); ?>
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -15,8 +17,8 @@
 
     <script>d=document.documentElement;d.className=d.className.replace(/no-js/, 'js');</script>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
+    <link href="../css/style.css?<?php echo $version; ?>" rel="stylesheet">
+    <link href="./style.css?<?php echo $version; ?>" rel="stylesheet">
 
     <meta property="og:url"         content="http://timjs.ro/typescript-fundamentals-workshop/" />
     <meta property="og:type"        content="website" />

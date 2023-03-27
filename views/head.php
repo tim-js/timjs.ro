@@ -1,3 +1,5 @@
+    <?php include_once('version.php'); ?>
+
     <meta charset="utf-8">
     <title>tim.js - Timisoara JavaScript Community</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +13,7 @@
 
     <script>d=document.documentElement;d.className=d.className.replace(/no-js/, 'js');</script>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?<?php echo $version; ?>" rel="stylesheet">
 
     <meta property="og:url"         content="http://timjs.ro" />
     <meta property="og:type"        content="website" />
