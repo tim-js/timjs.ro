@@ -1,7 +1,7 @@
     <meta charset="utf-8">
     <title>tim.js - Timisoara JavaScript Community</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="Timisoara JavaScript Community">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
