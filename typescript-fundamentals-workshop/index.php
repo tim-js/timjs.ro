@@ -141,12 +141,10 @@
 
         <p>Both workshops include <strong>6 hours of content</strong>, excluding breaks. Both workshops will have the following schedule:</p>
         <ul>
-          <li>&nbsp;8:30 - Registration and coffee</li>
-          <li>&nbsp;9:00 - Workshop starts</li>
-          <li>10:30 - Break</li>
-          <li>12:30 - Lunch break</li>
-          <li>15:00 - Break</li>
-          <li>17:00 - Workshop ends</li>
+          <li><strong>&nbsp;8:30 - &nbsp;8:45</span></strong> Registration and coffee</li>
+          <li><strong>&nbsp;9:00 - 12:30</strong> Workshop morning session</li>
+          <li><strong>12:30 - 13:30</strong> Lunch break</li>
+          <li><strong>13:30 - 17:00</strong> Workshop afternood session</li>
         </ul>
 
         <br />
