@@ -41,12 +41,13 @@
         <p>This 2-day workshop is aimed to give both <strong>beginners</strong> and <strong>intermediate</strong> developers a solid foundation of TypeScript fundamentals, while also exploring some of the more advanced features of TypeScript as well.</p>
         <p><strong>Location</strong>: Hotel Timisoara, ROMA room</p>
         <p><strong>Date</strong>: 29-30 May, 2023</p>
-        <p><strong>Capacity</strong>: maximum 20 seats</p>
+        <p><strong>Capacity</strong>: maximum 25 seats</p>
         <p><strong>Trainer</strong>: Tițian-Cornel Cernicova-Dragomir</p>
 
         <br />
+        <p class="discount"><strong>25% discount</strong> available until March 15th</p>
         <p>
-          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
         </p>
 
         <h2 id="toc">Table of contents</h2>
@@ -73,7 +74,7 @@
 
         <br />
         <p class="cta-wrapper">
-          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
         </p>
 
@@ -100,7 +101,7 @@
 
         <br />
         <p class="cta-wrapper">
-          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
         </p>
 
@@ -127,7 +128,7 @@
 
         <br />
         <p class="cta-wrapper">
-          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
         </p>
 
@@ -149,7 +150,7 @@
 
         <br />
         <p class="cta-wrapper">
-          <a href="https://ti.to/timjscommunity/typescript-workshop-2023" target="_blank" class="cta">Get your Ticket</a>
+          <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
         </p>
 
