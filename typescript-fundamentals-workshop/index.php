@@ -23,14 +23,14 @@
     <meta property="og:url"         content="http://timjs.ro/typescript-fundamentals-workshop/" />
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="tim.js Typescript Fundamentals Workshop" />
-    <meta property="og:description" content="This 2-day workshop is aimed to give both beginners and intermediate developers a solid foundation of TypeScript fundamentals, while also exploring some of the more advanced features of TypeScript as well." />
+    <meta property="og:description" content="This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework." />
     <meta property="og:image"       content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
     <meta name="twitter:image" content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="tim.js Typescript Fundamentals Workshop" />
-    <meta name="twitter:description" content="This 2-day workshop is aimed to give both beginners and intermediate developers a solid foundation of TypeScript fundamentals, while also exploring some of the more advanced features of TypeScript as well. " />
+    <meta name="twitter:description" content="This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. " />
   </head>
 
   <body class="wrapper">
@@ -38,7 +38,15 @@
       <h1><img src="../assets/timjs-workshop-share.png" class="banner" alt="TypeScript Fundamentals Workshop, with Tițian-Cornel Cernicova-Dragomir, organized by tim.js (Timisoara JavaScript Community) between 29th-30th of May 2023" /></h1>
 
       <main class="main">
-        <p>This 2-day workshop is aimed to give both <strong>beginners</strong> and <strong>intermediate</strong> developers a solid foundation of TypeScript fundamentals, while also exploring some of the more advanced features of TypeScript as well.</p>
+        <p>This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. However, the ones that will benefit the most include:</p>
+        <ul>
+          <li><strong>Experienced JavaScript developers</strong> new to TypeScript and type systems.</li>
+          <li><strong>Beginners to TypeScript</strong> looking for boosting their learning curve.</li>
+          <li><strong>Advanced TypeScript developers</strong> that want to understand type systems at a deeper level.</li>
+        </ul>
+
+        <br />
+
         <p><strong>Location</strong>: Hotel Timisoara, ROMA room</p>
         <p><strong>Date</strong>: 29-30 May, 2023</p>
         <p><strong>Capacity</strong>: maximum 25 seats</p>
@@ -54,21 +62,21 @@
         <ul>
           <li><a href="#overview">Workshop overview</a></li>
           <li><a href="#tickets">Tickets info</a></li>
-          <li><a href="#day1">Day 1: TypeScript Fundamentals for Beginners</a></li>
+          <li><a href="#day1">Day 1: TypeScript Fundamentals</a></li>
           <li><a href="#day2">Day 2: Intermediate TypeScript</a></li>
           <li><a href="#trainer">About your trainer</a></li>
           <li><a href="#schedule">Workshop schedule</a></li>
         </ul>
 
         <h2 id="overview">Workshop overview</h2>
-        <p>The workshop will be a combination of lectures, code examples, and hands-on exercises. Participants will have the opportunity to engage with the material and practice the concepts and skills we will talk about. It is designed as an interactive experience with questions welcomed and encouraged throughout the day.</p>
+        <p>The workshop will be a combination of <strong>lectures</strong>, <strong>code examples</strong>, and <strong>hands-on exercises</strong>. Participants will have the opportunity to engage with the material and practice the concepts and skills we will talk about. It is designed as an <strong>interactive experience</strong> with questions welcomed and encouraged throughout the day.</p>
 
         <br />
         <h3>Prerequisites:</h3>
-        <p>Participants should bring their own laptop. Code sample and exercises will be done in the TypeScript playground, but VS Code can also be used.</p>
+        <p><strong>Participants should bring their own laptop.</strong> Code sample and exercises will be done in the TypeScript playground, but VSCode can also be used.</p>
 
         <h2 id="tickets">Tickets info</h2>
-        <p>Tickets can be bought individually, for one workshop only (beginner or intermediate), or for both workshops with a 10% discount.</p>
+        <p>Tickets can be bought individually, for one workshop only (Day 1 or Day 2), or for both workshops with a 10% discount.</p>
         <p>Refunds are not available.</p>
         <p><strong>All tickets include morning coffee + snacks, lunch, and beverages.</strong></p>
 
@@ -78,14 +86,14 @@
           <a href="#toc">Back to top</a>
         </p>
 
-        <h2 id="day1">Day 1: TypeScript Fundamentals for Beginners</h2>
+        <h2 id="day1">Day 1: TypeScript Fundamentals</h2>
 
-        <p>This 6-hour workshop is designed to give beginners a solid foundation in TypeScript fundamentals. Participants will learn about the key concepts and syntax of TypeScript, including type annotations, primitive types, object types, function types, class types, tuple types, unions, and basic control flow analysis.</p>
+        <p>This 6-hour workshop is designed to give attendees a solid foundation in TypeScript fundamentals. Participants will learn about the key concepts and syntax of TypeScript, including type annotations, primitive types, object types, function types, class types, tuple types, unions, and basic control flow analysis.</p>
         <p>By the end of this workshop, participants will have a good understanding of TypeScript and be able to apply it to their own projects.</p>
 
         <br />
         <h3>Who is this workshop for?</h3>
-        <p>Participants should have a <strong>basic understanding of JavaScript</strong> and some experience with programming concepts like variables, functions, and objects. <strong>No prior experience with TypeScript is required.</strong></p>
+        <p>Participants should have a <strong>good understanding of JavaScript</strong> and extended experience with programming concepts like variables, functions, and objects. <strong>No prior experience with TypeScript is required.</strong></p>
 
         <br />
         <h3>Learning Objectives</h3>
@@ -112,7 +120,7 @@
 
         <br />
         <h3>Who is this workshop for?</h3>
-        <p>Participants should have a <strong>basic understanding of TypeScript</strong> and be familiar with type annotations, primitive types, object types, function types, and class types. Participants should also have experience working with JavaScript and be familiar with JavaScript fundamentals.</p>
+        <p>Participants should have a <strong>basic understanding of TypeScript</strong> and be familiar with type annotations, primitive types, object types, function types, and class types. Participants should also have extensive experience working with JavaScript.</p>
 
         <br />
         <h3>Learning Objectives</h3>
