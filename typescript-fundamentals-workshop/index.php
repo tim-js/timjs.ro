@@ -23,14 +23,14 @@
     <meta property="og:url"         content="http://timjs.ro/typescript-fundamentals-workshop/" />
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="tim.js Typescript Fundamentals Workshop" />
-    <meta property="og:description" content="This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework." />
+    <meta property="og:description" content="This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework." />
     <meta property="og:image"       content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
     <meta name="twitter:image" content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="tim.js Typescript Fundamentals Workshop" />
-    <meta name="twitter:description" content="This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. " />
+    <meta name="twitter:description" content="This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. " />
   </head>
 
   <body class="wrapper">
