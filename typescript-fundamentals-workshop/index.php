@@ -38,7 +38,7 @@
       <h1><img src="../assets/timjs-workshop-share.png" class="banner" alt="TypeScript Fundamentals Workshop, with Tițian-Cornel Cernicova-Dragomir, organized by tim.js (Timisoara JavaScript Community) between 29th-30th of May 2023" /></h1>
 
       <main class="main">
-        <p>This workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. However, the ones that will benefit the most include:</p>
+        <p>This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. However, the ones that will benefit the most include:</p>
         <ul>
           <li><strong>Experienced JavaScript developers</strong> new to TypeScript and type systems.</li>
           <li><strong>Beginners to TypeScript</strong> looking for boosting their learning curve.</li>
