@@ -1,4 +1,5 @@
 <?php include_once('../version.php'); ?>
+<?php $description = "This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework."; ?>
 
 <!doctype html>
 <html class="no-js" lang="">
@@ -7,7 +8,7 @@
     <meta charset="utf-8">
     <title>tim.js - Typescript Fundamentals Workshop</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="<?php echo $description; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
@@ -23,14 +24,14 @@
     <meta property="og:url"         content="http://timjs.ro/typescript-fundamentals-workshop/" />
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="tim.js Typescript Fundamentals Workshop" />
-    <meta property="og:description" content="This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework." />
+    <meta property="og:description" content="<?php echo $description; ?>" />
     <meta property="og:image"       content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
     <meta name="twitter:image" content="http://timjs.ro/assets/timjs-workshop-share.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="tim.js Typescript Fundamentals Workshop" />
-    <meta name="twitter:description" content="This 2-day workshop is dedicated to any JavaScript or TypeScript developer, working either on Front-End, Node.js, or Fullstack using any JS framework. " />
+    <meta name="twitter:description" content="<?php echo $description; ?> " />
   </head>
 
   <body class="wrapper">
