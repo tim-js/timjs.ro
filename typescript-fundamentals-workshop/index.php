@@ -53,7 +53,7 @@
         <p><strong>Trainer</strong>: Tițian-Cornel Cernicova-Dragomir</p>
 
         <br />
-        <p class="discount"><strong>25% discount</strong> available until May 15th</p>
+        <p class="discount"><strong>25% discount</strong> available until May 19th</p>
         <p>
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
         </p>
