@@ -54,10 +54,20 @@
         <p><strong>Trainer</strong>: Tițian-Cornel Cernicova-Dragomir</p>
 
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <figure class="photos">
+          <img src="./img1.jpeg" alt="Photo from the workshop depincting a room full of people with laptops" />
+          <img src="./img2.jpeg" alt="Photo from the workshop depincting a room full of people with laptops" />
+        </figure>
+
+        <!-- <br />
         <p class="discount"><strong>25% discount</strong> available until May 19th</p>
         <p>
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
-        </p>
+        </p> -->
 
         <h2 id="toc">Table of contents</h2>
         <ul>
@@ -81,11 +91,11 @@
         <p>Refunds are not available.</p>
         <p><strong>All tickets include morning coffee + snacks, lunch, and beverages.</strong></p>
 
-        <br />
+        <!-- <br />
         <p class="cta-wrapper">
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
-        </p>
+        </p> -->
 
         <h2 id="day1">Day 1: TypeScript Fundamentals</h2>
 
@@ -108,11 +118,11 @@
           <li>Understand <strong>control flow analysis</strong> and how to use it to detect unreachable code, unused variables, and other potential issues. </li>
         </ul>
 
-        <br />
+        <!-- <br />
         <p class="cta-wrapper">
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
-        </p>
+        </p> -->
 
         <h2 id="day2">Day 2: Intermediate TypeScript</h2>
 
@@ -135,18 +145,18 @@
           <li>Learn how to write <strong>generic functions</strong> in TypeScript. </li>
         </ul>
 
-        <br />
+        <!-- <br />
         <p class="cta-wrapper">
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
-        </p>
+        </p> -->
 
         <h2 id="trainer">About your trainer</h2>
         <p><strong><a href="https://www.linkedin.com/in/titian-cernicova-dragomir-2b37457a/" target="_blank">Tițian-Cornel Cernicova-Dragomir</a></strong> is a renowned software developer and <strong>top TypeScript expert</strong> with a passion for helping others. As a member of the JavaScript infrastructure team at Bloomberg, he works on developing JavaScript and TypeScript tooling for internal developers. Tițian has made <strong>significant contributions to TypeScript</strong>, including improvements to error, private class elements, and isolated declarations (work in progress). His expertise extends to React and Node.js.</p>
         <p>In addition to his professional achievements, Tițian is an active member of the TypeScript community. He is in the top 5 people answering questions for the language on Stack Overflow and enjoys helping others with their TypeScript queries. </p>
         <p>Tițian-Cornel Cernicova-Dragomir has a wealth of teaching and speaking experience. He was a teaching assistant at UPT, where he taught functional programming, and has delivered a workshop at KCDC 2022 and TSConf 2021. He has spoken at several conferences, including <strong>TS Congress 2022</strong>, <strong>TSConf 2021</strong>, and <strong>revo.js 2019</strong>. </p>
         <p>When he is not coding or helping others, Tițian enjoys biking and spending time with his wife and  children, making them pancakes. </p>
-        
+
         <h2 id="schedule">Workshops schedule</h2>
 
         <p>Both workshops include <strong>6 hours of content</strong>, excluding breaks. Both workshops will have the following schedule:</p>
@@ -157,11 +167,11 @@
           <li><strong>13:30 - 17:00</strong> Workshop afternoon session</li>
         </ul>
 
-        <br />
+        <!-- <br />
         <p class="cta-wrapper">
           <a href="https://ti.to/timjscommunity/typescript-workshop-2023/discount/TYPE_SAFETY_FIRST" target="_blank" class="cta">Get your Ticket</a>
           <a href="#toc">Back to top</a>
-        </p>
+        </p> -->
 
         <br />
         <br />

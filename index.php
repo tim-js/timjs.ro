@@ -10,14 +10,6 @@
       <?php require_once('views/header.php'); ?>
 
       <section>
-        <h2 class="grey">// upcoming workshop</h2>
-        <br />
-        <a href="./typescript-fundamentals-workshop" class="workshop-link">
-          <img src="assets/timjs-workshop-share.png" class="workshop-image" alt="TypeScript Fundamentals Workshop, with Tițian-Cornel Cernicova-Dragomir, organized by tim.js (Timisoara JavaScript Community) between 29th-30th of May 2023" />
-        </a>
-      </section>
-
-      <section>
           <h2 class="grey">// organizer of revo.js</h2>
           <br />
           <a href="https://revojs.ro" target="_blank">
@@ -54,6 +46,14 @@
                   </div>
               </li>
           </ul>
+
+          <br />
+          <br />
+          <br />
+
+          <a href="./typescript-fundamentals-workshop" class="workshop-link">
+            <img src="assets/timjs-workshop-share.png" class="workshop-image" alt="TypeScript Fundamentals Workshop, with Tițian-Cornel Cernicova-Dragomir, organized by tim.js (Timisoara JavaScript Community) between 29th-30th of May 2023" />
+          </a>
       </section>
 
       <?php require_once('views/footer.php'); ?>
